@@ -1,4 +1,4 @@
-obj HR 8799
+obj AF Lep B
 
 filt ms
 pupil largehex
@@ -7,7 +7,7 @@ shutter open
 
 sampmode 2
 
-subc 768
+subc 512
 
 tint 0.3
-coadd 200
+coadd 300

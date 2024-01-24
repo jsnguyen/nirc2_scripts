@@ -1,26 +1,38 @@
+obj darks
+
 shutter close
 
-tint 65
-coadd 1
-subc 1024 1024
-goi
-
-tint 0.4
-coadd 50
-subc 1024 1024
-goi
-
-tint 0.3
-coadd 1
-subc 768 776
-goi
-
-tint 0.3
-coadd 200
-subc 768 776
-goi
-
-tint 0.3
+subc 512
+tint 0
 coadd 100
-subc 768 776
+goi
+
+subc 512
+tint 0.15
+coadd 100
+goi
+
+subc 512
+tint 0.15
+coadd 300
+goi
+
+subc 256
+tint 0
+coadd 100
+goi
+
+subc 256
+tint 0.05
+coadd 100
+goi
+
+subc 256
+tint 0.05
+coadd 300
+goi
+
+subc 256
+tint 0.05
+coadd 600
 goi
