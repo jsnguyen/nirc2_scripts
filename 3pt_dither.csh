@@ -1,7 +1,9 @@
-set i = 0
+set i = 1 # start at bottom left
 set dx = 1.4
 set dy = 1.4
 while (1)
+
+    echo "iteration $i"
 
     # top right
     @ toggle = ($i % 3)
@@ -18,10 +20,17 @@ while (1)
         @ my = 0
     endif
 
-    echo "iteration $i"
-    goi 10
-    echo "dithering relative x=$mx"
+
     mxy $mx $my
+    echo "dithering relative x=$mx y=$my"
+
+    itime 0
+    coadds 100
+    goi 1
+
+    itime 0.15
+    coadds 300
+    goi 10
 
     @ i++
 
