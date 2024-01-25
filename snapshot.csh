@@ -18,7 +18,7 @@ object mband snap small
 
 subc 64
 tint 0
-coadd 500
+coadd 100
 goi 10
 
 echo "Resetting parameters..."

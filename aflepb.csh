@@ -1,13 +1,15 @@
-obj AF Lep B
-
+# do once settings
+object AF Lep
 filt ms
 pupil largehex
-cam narrow
+camera narrow
 shutter open
-
 sampmode 2
 
-subc 512
+pmrrot on # turn on pupil rotation
+rotate 0.0 vertang
 
-tint 0.3
+# settings for not saturating
+subc 512
+tint 0.15
 coadd 300

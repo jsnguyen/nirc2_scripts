@@ -1,4 +1,4 @@
-obj HR 8799
+object HR 8799
 
 filt ms
 pupil largehex

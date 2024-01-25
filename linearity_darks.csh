@@ -1,4 +1,5 @@
-object linearity
+object linearity darks
+shutter close
 
 coadd 10
 
